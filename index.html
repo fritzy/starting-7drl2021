@@ -1,10 +1,32 @@
 <html>
     <head>
+      <link rel="icon" href="assets/icon.png" sizes="16x16" type="image/png">
+      <style>
+
+body {
+}
+
+#rlcontainer {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+#rlloadbar {
+  display: block;
+  margin: auto;
+  width: 80%;
+  color: green;
+}
+      </style>
     </head>
     <body>
-        <div id='layout'>
-            <div id='container'>
-            </div>
+        <div id='rlcontainer'>
+          <div id='rlloading'>
+            <span>Loading...</span>
+            <progress class="w3-center" id="rlloadbar" max="100" value="0">Hi There</progress>
+          </div>
+        </div>
         <script src='out.js'></script>
     </body>
 </html>

@@ -7,8 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve",
-    "build": "./build.sh",
-    "publish": "./publish.sh"
+    "build": "./bin/build.sh",
+    "publish": "./bin/publish.sh"
   },
   "keywords": [
     "roguelike",
